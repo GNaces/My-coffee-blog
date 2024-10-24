@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'coffee_project',
+    'hi_blog',
 ]
 
 MIDDLEWARE = [
@@ -88,6 +88,11 @@ WSGI_APPLICATION = 'coffee_project.wsgi.application'
 DATABASES = {
     'default': dj_database_url.parse(os.environ.get("DATABASE_URL", "postgres://uanse07nur6:Te5PIqK29CZN@ep-gentle-mountain-a23bxz6h-pooler.eu-central-1.aws.neon.tech/decay_shape_near_99374"))
 }
+
+CSRF_TRUSTED_ORIGINS = [
+    "https://*.codeinstitute-ide.net/",
+    "https://*.herokuapp.com"
+]
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
