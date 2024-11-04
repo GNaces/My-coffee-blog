@@ -44,3 +44,6 @@ The major goal of this project was to create a simple, user-friendly platform th
 
 5. Administrator Control Over All Content
       - Admins have control over forum posts and can regulate and remove content as appropriate, thereby promoting a safe and friendly atmosphere.
+
+
+The user stories for this project can be viewed [here](https://github.com/users/GNaces/projects/5)
