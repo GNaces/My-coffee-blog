@@ -47,3 +47,13 @@ The major goal of this project was to create a simple, user-friendly platform th
 
 
 The user stories for this project can be viewed [here](https://github.com/users/GNaces/projects/5)
+
+### Models
+
+I utilized three models for this project. The Post model controls user postings, the Comment model manages user comments, and the Like model keeps track of who liked the post.
+
+![Post Model](assets/images/post_model.jpg)
+
+![Comment Model](assets/images/comment_model.jpg)
+
+![Like Model](assets/images/like_model.jpg)
