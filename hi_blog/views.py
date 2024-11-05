@@ -7,17 +7,19 @@ from .models import Post, Comment, Like
 from .forms import CommentForm
 
 # Create your views here.
+
+
 class PostList(generic.ListView):
     """
     Returns all published posts in :model:`blog.Post`
-    and displays them in a page of six posts. 
+    and displays them in a page of six posts.
     **Context**
 
     ``queryset``
         All published instances of :model:`blog.Post`
     ``paginate_by``
         Number of posts per page.
-        
+
     **Template:**
 
     :template:`blog/index.html`
@@ -25,7 +27,6 @@ class PostList(generic.ListView):
     queryset = Post.objects.filter(status=1)
     template_name = "hi_blog/index.html"
     paginate_by = 3
-
 
 
 def post_detail(request, slug):
@@ -65,9 +66,9 @@ def post_detail(request, slug):
                 'Comment submitted and awaiting approval'
             )
 
-        return redirect('post_detail', slug=slug)  # Redirect to avoid resubmission
+        return redirect('post_detail', slug=slug)
     else:
-        comment_form = CommentForm()  # Create a new form instance if not POST
+        comment_form = CommentForm()
 
     return render(
         request,
@@ -112,6 +113,7 @@ def comment_edit(request, slug, comment_id):
 
     return HttpResponseRedirect(reverse('post_detail', args=[slug]))
 
+
 def comment_delete(request, slug, comment_id):
     """
     Delete an individual comment.
@@ -135,12 +137,15 @@ def comment_delete(request, slug, comment_id):
 
     return HttpResponseRedirect(reverse('post_detail', args=[slug]))
 
+
 @login_required
 def toggle_like(request, post_id):
     """
-    get_or_create: Checks if the Like object already exists for this user and post combination.
+    get_or_create: Checks if the Like object already exists for
+        this user and post combination.
         If created is True, it means the like was newly created.
-        If created is False, it means the user already liked the post, so we delete the like (unlike).
+        If created is False, it means the user already liked
+        the post, so we delete the like (unlike).
     """
     post = get_object_or_404(Post, id=post_id)
     like, created = Like.objects.get_or_create(user=request.user, post=post)
@@ -149,4 +154,4 @@ def toggle_like(request, post_id):
         # If like already exists, delete it (unlike)
         like.delete()
 
-    return redirect('post_detail', slug=post.slug)  # Redirect to the post detail page
+    return redirect('post_detail', slug=post.slug)

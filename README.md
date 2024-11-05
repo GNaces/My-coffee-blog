@@ -174,3 +174,37 @@ Using Django Coverage I realised that I hadn't covered enough testing with Djang
 
 * Django Admin user can create, edit and delete posts and comments from the Django admin panel, and can approve comments from there too. It can also add user. This gives the admin the ability to moderate the posts on the blog.
 ![Django Admin](assets/images/admin_index.jpg) ![Django Admin](assets/images/add_comment.jpg) ![Django Admin](assets/images/add_post.jpg) ![Django Admin](assets/images/approve_delete_comment.jpg) ![Django Admin](assets/images/add_user.jpg) 
+
+### Pep8 and Pylint Python Validators
+
+#### About App
+
+* admin.py
+![admin.py](assets/images/py_admin_about.jpg) 
+* apps.py
+![apps.py](assets/images/py_apps_about.jpg) 
+* forms.py 
+![forms.py](assets/images/py_forms_about.jpg) 
+* models.py 
+![models.py](assets/images/py_models_about.jpg) 
+* views.py 
+![views.py](assets/images/py_views_about.jpg) 
+* test_forms.py
+![test_forms.py](assets/images/py_testform_about.jpg)
+* test_views.py 
+![test_views.py](assets/images/py_testviews_about.jpg)
+
+#### hi_blog App
+
+* models.py 
+![models.py](assets/images/blog_models_py.jpg) 
+* views.py 
+![views.py](assets/images/blog_views_py.jpg) 
+
+### HTML Validation with Official W3C Validator
+
+![W3C Validator](assets/images/uri_html_validation.jpg) 
+
+### CSS Validation with Official W3C Validator
+
+![CSSVALIDATION](assets/images/css_validator.jpg)
