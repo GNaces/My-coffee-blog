@@ -136,10 +136,41 @@ Django for automated testing was used for this project. Unit test to verify prog
 
 * Tested forms.py and views.py using Django TestCase in test_forms.py and test_views.py.
 
-#### test_forms.py
-![testing hi_blog forms.py](assets/images/test_forms.png)
+### test_forms.py
 
-#### test_views.py
-![testing views.py](assets/images/test_views.png)
+![testing hi_blog forms.py](assets/images/blog_test_form.jpg)
 
-![Test result](assets/images/test_result.png)
+![testing about forms.py](assets/images/about_test_forms.jpg)
+
+### test_views.py
+
+![testing hi_blog views.py](assets/images/blog_test_view.jpg)
+
+![testing hi_blog views.py](assets/images/about_test_views.jpg)
+
+### Test Results
+
+![Test result](assets/images/test_results.jpg)
+
+* I attempted to test models.py but did not have a clear idea of what to test for, so I opted to go with manual testing for the rest of my program to ensure quality and usability from the user's perspective.
+
+### Django Coverage report
+![Coverage report](assets/images/coverage_report.jpg)
+
+Using Django Coverage I realised that I hadn't covered enough testing with Django TestCase so manual testing was the next step to cover more testing e.g. Like Model.
+
+### Manual Testing
+* I used a KanBan board to help plan my manual testing and the points I needed to hit. [Here](https://github.com/users/GNaces/projects/5)
+
+* Post Model blog posts were ordered by creation date, the blog title is returned and that the like count is returned. 
+
+* Comment model comments being ordered by creation date, and commenter name was returned along with the comment. 
+
+* The paths from url.py that I didn't cover in my automated tested which were toggle_like, post_detail, comment_edit and comment_delete are all working.
+
+* If the user isn't logged in they can't create, edit or delete a comment or like a post. The user can view a post and signup or login.
+
+* Logged in users can create, edit and delete their comments and like post and has the ability to sign out.
+
+* Django Admin user can create, edit and delete posts and comments from the Django admin panel, and can approve comments from there too. It can also add user. This gives the admin the ability to moderate the posts on the blog.
+![Django Admin](assets/images/admin_index.jpg) ![Django Admin](assets/images/add_comment.jpg) ![Django Admin](assets/images/add_post.jpg) ![Django Admin](assets/images/approve_delete_comment.jpg) ![Django Admin](assets/images/add_user.jpg) 
