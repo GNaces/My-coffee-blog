@@ -94,3 +94,52 @@ Once a user's account is set up, they are given more choices such as commenting 
 
 ![Like Post](assets/images/like_post.jpg)
 
+### Delete Comment
+
+Users can manage the comments they have posted. If a user desires to remove and post comments, they may do so. To avoid unintentional deletions, users must indicate that they want to delete their comment before proceeding.
+
+![Delete Posts](assets/images/delete_comment.jpg)
+
+### Edit and Update Comment
+
+Users can also manage their posted comments by changing and updating them as desired.
+
+![Edit posts](assets/images/edit_update_comment.jpg)
+
+### About Page
+
+The About Page of MR COFFEE highlights the journey of founders who transformed a simple idea into a successful coffee company through dedication and perseverance. Their commitment to excellence is evident in the extensive trials and taste tests conducted to refine their coffee. Guided by five core values, they emphasize growth and innovation, aiming to provide the best coffee experience in town. Their strong connection with customers, lovingly referred to as "Ka-MC," reflects a community-oriented approach. MR COFFEE represents not just a beverage, but a shared dream brought to life through passion and teamwork.
+
+![About Page](assets/images/our_story.jpg)
+
+### About Page Suggestion and Collaboration
+
+The Suggestion and Collaboration form simply asks people for their opinions on future product innovations by asking"Hey! I am curious, have you tried any of the Mr. Coffee products? I'd love to hear your thoughts on how they have worked for you!"
+
+This does not allow invalid input or black on Name, Email and Message.
+
+![Collaboration](assets/images/collaborate.jpg)
+
+### Blog Admin
+
+The blog administrator is the site's Django superuser. They can create and delete blog posts. This is a method of moderating the website. They have to review and approve comments for the same reason.
+
+## Features left to implement
+
+- Login via social media account, eg. facebook or google.
+
+## Testing
+
+### Automated Testing
+
+Django for automated testing was used for this project. Unit test to verify program's separate components, or units, perform as planned.
+
+* Tested forms.py and views.py using Django TestCase in test_forms.py and test_views.py.
+
+#### test_forms.py
+![testing hi_blog forms.py](assets/images/test_forms.png)
+
+#### test_views.py
+![testing views.py](assets/images/test_views.png)
+
+![Test result](assets/images/test_result.png)
