@@ -127,6 +127,7 @@ The blog administrator is the site's Django superuser. They can create and delet
 ## Features left to implement
 
 - Login via social media account, eg. facebook or google.
+- Improving the trust and safety of site based on lighthouse report.
 
 ## Testing
 
@@ -208,3 +209,23 @@ Using Django Coverage I realised that I hadn't covered enough testing with Djang
 ### CSS Validation with Official W3C Validator
 
 ![CSSVALIDATION](assets/images/css_validator.jpg)
+
+## LightHouse testing
+
+Listed this as next steps for improvement.
+      1. HTTPS for All Resources
+      2. Implement a Content Security Policy (CSP)
+      3. Minimize Third-Party Cookies
+      4. Deep dive on the Chrome DevTools Issues Panel
+
+![lighthouse1](assets/images/lighthouse.jpg)
+
+## Responsive testing
+This app has been tested on mobile and tablet devices and is responsive.
+![mobile](assets/images/res_mobile.jpg)
+
+![tablet](assets/images/res_tablet.jpg)
+
+![laptop](assets/images/res_laptop.jpg)
+
+![desktop](assets/images/res_desktop.jpg)
