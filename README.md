@@ -57,3 +57,25 @@ I utilized three models for this project. The Post model controls user postings,
 ![Comment Model](assets/images/comment_model.jpg)
 
 ![Like Model](assets/images/like_model.jpg)
+
+
+## Project Management
+
+I utilized GitHub's KanBan board to organize my process. [Mr CoffeePH Workflow](https://github.com/users/GNaces/projects/5)
+
+I picked KanBan because it provides a flexible and agile way to manage my workload. I find KanBan to be extremely useful for solitary tasks; it improved the efficiency of managing my workload through its accessible depiction, resulting in increased production.
+
+The board enabled me to simply move my stories through the business delivery lifecycle of To Do -> In Progress -> Done.
+
+## Features
+
+### Welcome to Mr CoffeePH Blog
+
+When users start the app, they are greeted with a landing page consisting of blog posts, which they may peruse even without an account. 
+Users who do not yet have an account will see a sign up option in the navbar, allowing them to create one.
+
+![Index Page](assets/images/index_page.jpg)
+
+Users who have an account will see a navbar with the options to logout and a status that shows them they are signed in, as well as the ability to see user posts and post likes and comments.
+
+![User Index Page](assets/images/index_page_user.jpg)
