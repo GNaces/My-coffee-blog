@@ -29,7 +29,7 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 SECRET_KEY = 'django-insecure-j9hre7)3xo^9ddj16jx@fej#f$3w_3)gfr^g83lmdi-)&uw7we'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 ALLOWED_HOSTS = ['8000-gnaces-mycoffeeblog-hg02bax6pq5.ws.codeinstitute-ide.net','.herokuapp.com']
 
 
@@ -106,7 +106,11 @@ WSGI_APPLICATION = 'coffee_project.wsgi.application'
 # }
 
 DATABASES = {
-    'default': dj_database_url.parse(os.environ.get("DATABASE_URL", "postgres://uanse07nur6:Te5PIqK29CZN@ep-gentle-mountain-a23bxz6h-pooler.eu-central-1.aws.neon.tech/decay_shape_near_99374"))
+    'default': dj_database_url.parse(
+        os.environ.get(
+            "DATABASE_URL", "postgres://uanse07nur6:Te5PIqK29CZN@ep-gentle-mountain-a23bxz6h-pooler.eu-central-1.aws.neon.tech/decay_shape_near_99374"
+        )
+    )
 }
 
 if 'test' in sys.argv:
