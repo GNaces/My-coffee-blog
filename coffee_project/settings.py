@@ -31,7 +31,7 @@ if not SECRET_KEY:
     raise ValueError("SECRET_KEY environment variable is not set")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 ALLOWED_HOSTS = ['8000-gnaces-mycoffeeblog-hg02bax6pq5.ws.codeinstitute-ide.net','.herokuapp.com', 'localhost',]
 
 
