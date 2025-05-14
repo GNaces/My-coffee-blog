@@ -120,6 +120,59 @@ This does not allow invalid input or black on Name, Email and Message.
 
 ![Collaboration](assets/images/collaborate.jpg)
 
+### Wireframes
+
+To give a visual depiction of each page's structure and operation, wireframes have been created for both PC and mobile screens.
+
+<table style="width: 100%; border-collapse: collapse;">
+    <tr>
+        <th style="text-align: center;">Home</th>
+        <th style="text-align: center;">Register</th>
+        <th style="text-align: center;">Sign In</th>
+        <th style="text-align: center;">About</th>
+        <th style="text-align: center;">Content</th>
+        <th style="text-align: center;">Sign Out</th>
+    </tr>
+    <tr>
+        <td style="text-align: center; vertical-align: top;">
+            <div style="display: flex; flex-direction: column; align-items: center; flex-wrap: wrap;">
+                <img src="assets/images/wireframe/HomePage.Mobile.png" alt="HomePage Mobile Wireframe" style="max-width: 60%; height: auto; margin-bottom: 20px;">
+                <img src="assets/images/wireframe/HomePage.PC.png" alt="HomePage PC Wireframe" style="max-width: 100%; height: auto;">
+            </div>
+        </td>
+        <td style="text-align: center; vertical-align: top;">
+            <div style="display: flex; flex-direction: column; align-items: center; flex-wrap: wrap;">
+                <img src="assets/images/wireframe/Register.Mobile.png" alt="Register Mobile Wireframe" style="max-width: 60%; height: auto; margin-bottom: 20px;">
+                <img src="assets/images/wireframe/Register.PC.png" alt="Register PC Wireframe" style="max-width: 100%; height: auto;">
+            </div>
+        </td>
+        <td style="text-align: center; vertical-align: top;">
+            <div style="display: flex; flex-direction: column; align-items: center; flex-wrap: wrap;">
+                <img src="assets/images/wireframe/SignIn.Mobile.png" alt="Sign In Mobile Wireframe" style="max-width: 60%; height: auto; margin-bottom: 20px;">
+                <img src="assets/images/wireframe/SignIn.PC.png" alt="Sign In PC Wireframe" style="max-width: 100%; height: auto;">
+            </div>
+        </td>
+        <td style="text-align: center; vertical-align: top;">
+            <div style="display: flex; flex-direction: column; align-items: center; flex-wrap: wrap;">
+                <img src="assets/images/wireframe/About.Mobile.png" alt="About Mobile Wireframe" style="max-width: 60%; height: auto; margin-bottom: 20px;">
+                <img src="assets/images/wireframe/About.PC.png" alt="About PC Wireframe" style="max-width: 100%; height: auto;">
+            </div>
+        </td>
+        <td style="text-align: center; vertical-align: top;">
+            <div style="display: flex; flex-direction: column; align-items: center; flex-wrap: wrap;">
+                <img src="assets/images/wireframe/HomeBlogContent.Mobile.png" alt="HomeBlogContent Mobile Wireframe" style="max-width: 60%; height: auto; margin-bottom: 20px;">
+                <img src="assets/images/wireframe/HomeBlogContent.PC.png" alt="Testimonials PC Wireframe" style="max-width: 100%; height: auto;">
+            </div>
+        </td>
+                <td style="text-align: center; vertical-align: top;">
+            <div style="display: flex; flex-direction: column; align-items: center; flex-wrap: wrap;">
+                <img src="assets/images/wireframe/SignOutQs.Mobile.png" alt="HomeBlogContent Mobile Wireframe" style="max-width: 60%; height: auto; margin-bottom: 20px;">
+                <img src="assets/images/wireframe/SignOutQs.PC.png" alt="Testimonials PC Wireframe" style="max-width: 100%; height: auto;">
+            </div>
+        </td>
+    </tr>
+</table>
+
 ### Blog Admin
 
 The blog administrator is the site's Django superuser. They can create and delete blog posts. This is a method of moderating the website. They have to review and approve comments for the same reason.
