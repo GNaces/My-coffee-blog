@@ -349,3 +349,4 @@ For this project the built in Django admin page is where the admin approves post
 - Photos was taken from https://mrcoffeeph.com/, Mr. Coffee official website.
 - Django docs helped with Django testing (https://docs.djangoproject.com/en/4.0/topics/testing/)
 - Used ChatGPT regarding addressing and debuging errors.
+- Wireframe and README were inspired from https://github.com/Dimitris112/rum-away-testp4/blob/main/README.md.
